@@ -1,0 +1,84 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your own image file */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  /* Main Styles */
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  #intro {
+    font-size: 18px;
+  }
+  
+  #early-life, #achievements, #legacy {
+    border-left: 5px solid #333;
+    padding-left: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    main {
+      padding: 10px;
+    }
+  }
+  
